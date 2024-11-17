@@ -7,7 +7,7 @@ const ExamesValidator = Yup.object().shape({
         .required('Campo Obrigatório'),
     descricao: Yup.string()
         .min(5, 'O mínimo de caracteres é 5')
-        .max(200, 'O máximo de caracteres é 200')
+        .max(500, 'O máximo de caracteres é 200')
         .required('Campo Obrigatório'),
     preco: Yup.number()
         .positive('O preço deve ser um número positivo')

@@ -48,6 +48,7 @@ export default function Locais() {
                         <th>Nome</th>
                         <th>Endereço</th>
                         <th>Telefone</th>
+                        <th>Cep </th>
                     </tr>
                 </thead>
                 <tbody>
